@@ -85,7 +85,7 @@ The incorrectly innitialized type no longer compiles, and the user is completely
 package main
 
 // does not compile
-// bad := complicated.ComplicatedType{}
+bad := complicated.ComplicatedType{}
 
 good := complicated.NewComplicatedType()
 good.DoComplicatedThings()
