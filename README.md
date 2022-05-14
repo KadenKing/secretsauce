@@ -2,7 +2,7 @@
 
 ## What is it? 
 
-The secret sauce pattern is a way of using generics to make it impossible to default ininitialize a type outside of its package.
+The secret sauce pattern is a way of using generics to make the default initializer private to a go package.
 
 ## Should I actually do this?
 
